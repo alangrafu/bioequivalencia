@@ -6,7 +6,7 @@ Componentes para aplicación de bioequivalencia de medicamentos para hackathon c
 
 ## Instalación
 
-* Instalar LODSPeaKr. Por ejemplo, sSi se `/var/www` es el directorio raíz del sitio web:
+* Instalar LODSPeaKr. Por ejemplo, si `/var/www` es el directorio raíz del sitio web:
     * `mkdir /var/www/bioequivalencia`
     * `cd /var/www/bioequivalencia`
     * `bash < <(curl -sL http://lodspeakr.org/install)`
