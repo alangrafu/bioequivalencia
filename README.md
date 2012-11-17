@@ -20,3 +20,6 @@ Componentes para aplicación de bioequivalencia de medicamentos para hackathon c
     * Cargar los datos disponibles en `data/todo.ttl` en el SPARQL endpoint
     * En la instalación de LODSPeaKr remover el directorio `components` y hacer un softlink al directorio `components` **de este repositorio** (en la instalación: `ln -s ../bioequivalencia/lodspeakr/components`)
 
+## Demo
+
+El demo está disponible en [http://graves.cl/bioequivalencia](http://graves.cl/bioequivalencia)
