@@ -1,0 +1,1664 @@
+@prefix schema: <http://graves.cl/bioequivalencia/schema/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+
+<http://graves.cl/bioequivalencia/medicamento/anastrazol-comprimidos-recubiertos-1-mg> a schema:Medicamento ;
+	dcterms:identifier "1" .
+
+<http://graves.cl/bioequivalencia/principioactivo/anastrozol> a schema:PrincipioActivo ;
+	rdfs:label "Anastrozol" .
+
+<http://graves.cl/bioequivalencia/medicamento/anastrazol-comprimidos-recubiertos-1-mg> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/anastrozol> ;
+	rdfs:label "Anastrazol comprimidos recubiertos 1 mg" ;
+	schema:registro "F-16801/08" .
+
+<http://graves.cl/bioequivalencia/titular/laboratorio-rider-> a schema:Titular .
+
+<http://graves.cl/bioequivalencia/medicamento/anastrazol-comprimidos-recubiertos-1-mg> schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-rider-> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-1336> a schema:Resolucion ;
+	rdfs:label "resolucin-n-1336" ;
+	dcterms:identifier "resolucin-n-1336" ;
+	dcterms:created "2009-03-16"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/anastrazol-comprimidos-recubiertos-1-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-1336> .
+
+<http://graves.cl/bioequivalencia/enfermedad/cancer-de-mama> a schema:Tratamiento ;
+	rdfs:label "Cancer de mama" .
+
+<http://graves.cl/bioequivalencia/medicamento/anastrazol-comprimidos-recubiertos-1-mg> schema:uso <http://graves.cl/bioequivalencia/enfermedad/cancer-de-mama> .
+
+<http://graves.cl/bioequivalencia/medicamento/madelen-comprimidos-recubiertos-1-mg> a schema:Medicamento ;
+	dcterms:identifier "2" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/anastrozol> ;
+	rdfs:label "Madelen comprimidos recubiertos 1 mg" ;
+	schema:registro "F-16807/08" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-rider-> ;
+	schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-1336> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/cancer-de-mama> .
+
+<http://graves.cl/bioequivalencia/medicamento/neopresol-comprimidos-recubiertos-10-mg-> a schema:Medicamento ;
+	dcterms:identifier "3" .
+
+<http://graves.cl/bioequivalencia/principioactivo/escitalopram> a schema:PrincipioActivo ;
+	rdfs:label "Escitalopram" .
+
+<http://graves.cl/bioequivalencia/medicamento/neopresol-comprimidos-recubiertos-10-mg-> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/escitalopram> ;
+	rdfs:label "Neopresol comprimidos recubiertos 10 mg " ;
+	schema:registro "F-15836/11" .
+
+<http://graves.cl/bioequivalencia/titular/laboratorio-bag-> a schema:Titular .
+
+<http://graves.cl/bioequivalencia/medicamento/neopresol-comprimidos-recubiertos-10-mg-> schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-bag-> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-4204> a schema:Resolucion ;
+	rdfs:label "resolucin-n-4204" ;
+	dcterms:identifier "resolucin-n-4204" ;
+	dcterms:created "2009-08-20"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/neopresol-comprimidos-recubiertos-10-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-4204> .
+
+<http://graves.cl/bioequivalencia/enfermedad/antidepresivo> a schema:Tratamiento ;
+	rdfs:label "Antidepresivo" .
+
+<http://graves.cl/bioequivalencia/medicamento/neopresol-comprimidos-recubiertos-10-mg-> schema:uso <http://graves.cl/bioequivalencia/enfermedad/antidepresivo> .
+
+<http://graves.cl/bioequivalencia/medicamento/mesabex-comprimidos-recubiertos-300-mg> a schema:Medicamento ;
+	dcterms:identifier "4" .
+
+<http://graves.cl/bioequivalencia/principioactivo/abacavir> a schema:PrincipioActivo ;
+	rdfs:label "Abacavir" .
+
+<http://graves.cl/bioequivalencia/medicamento/mesabex-comprimidos-recubiertos-300-mg> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/abacavir> ;
+	rdfs:label "Mesabex comprimidos recubiertos 300 mg" ;
+	schema:registro "F-17883/09" .
+
+<http://graves.cl/bioequivalencia/titular/laboratorio-lafi> a schema:Titular .
+
+<http://graves.cl/bioequivalencia/medicamento/mesabex-comprimidos-recubiertos-300-mg> schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-lafi> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-77> a schema:Resolucion ;
+	rdfs:label "resolucin-n-77" ;
+	dcterms:identifier "resolucin-n-77" ;
+	dcterms:created "2010-01-12"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/mesabex-comprimidos-recubiertos-300-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-77> .
+
+<http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-vihsida> a schema:Tratamiento ;
+	rdfs:label "tratamiento de VIH/SIDA" .
+
+<http://graves.cl/bioequivalencia/medicamento/mesabex-comprimidos-recubiertos-300-mg> schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-vihsida> .
+
+<http://graves.cl/bioequivalencia/medicamento/gofyl-comprimidos-recubiertos-25-mg-> a schema:Medicamento ;
+	dcterms:identifier "5" .
+
+<http://graves.cl/bioequivalencia/principioactivo/quetiapina> a schema:PrincipioActivo ;
+	rdfs:label "Quetiapina" .
+
+<http://graves.cl/bioequivalencia/medicamento/gofyl-comprimidos-recubiertos-25-mg-> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/quetiapina> ;
+	rdfs:label "Gofyl comprimidos recubiertos 25 mg     " ;
+	schema:registro "F-16950/08" .
+
+<http://graves.cl/bioequivalencia/titular/axon-pharma-> a schema:Titular .
+
+<http://graves.cl/bioequivalencia/medicamento/gofyl-comprimidos-recubiertos-25-mg-> schema:titular <http://graves.cl/bioequivalencia/titular/axon-pharma-> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-794> a schema:Resolucion ;
+	rdfs:label "resolucin-n-794" ;
+	dcterms:identifier "resolucin-n-794" ;
+	dcterms:created "2010-03-30"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/gofyl-comprimidos-recubiertos-25-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-794> .
+
+<http://graves.cl/bioequivalencia/enfermedad/trastornos-mentales> a schema:Tratamiento ;
+	rdfs:label "Trastornos mentales" .
+
+<http://graves.cl/bioequivalencia/medicamento/gofyl-comprimidos-recubiertos-25-mg-> schema:uso <http://graves.cl/bioequivalencia/enfermedad/trastornos-mentales> .
+
+<http://graves.cl/bioequivalencia/medicamento/tensiomax-comprimidos-recubiertos-10-mg-> a schema:Medicamento ;
+	dcterms:identifier "6" .
+
+<http://graves.cl/bioequivalencia/principioactivo/ciclobenzaprina> a schema:PrincipioActivo ;
+	rdfs:label "Ciclobenzaprina" .
+
+<http://graves.cl/bioequivalencia/medicamento/tensiomax-comprimidos-recubiertos-10-mg-> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/ciclobenzaprina> ;
+	rdfs:label "Tensiomax comprimidos recubiertos 10 mg        " ;
+	schema:registro "F-9711/11" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-bag-> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-1440> a schema:Resolucion ;
+	rdfs:label "resolucin-n-1440" ;
+	dcterms:identifier "resolucin-n-1440" ;
+	dcterms:created "2010-05-19"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/tensiomax-comprimidos-recubiertos-10-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-1440> .
+
+<http://graves.cl/bioequivalencia/enfermedad/relajante-muscular> a schema:Tratamiento ;
+	rdfs:label "Relajante muscular" .
+
+<http://graves.cl/bioequivalencia/medicamento/tensiomax-comprimidos-recubiertos-10-mg-> schema:uso <http://graves.cl/bioequivalencia/enfermedad/relajante-muscular> .
+
+<http://graves.cl/bioequivalencia/medicamento/gofyl-comprimidos-recubiertos-100-mg-> a schema:Medicamento ;
+	dcterms:identifier "7" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/quetiapina> ;
+	rdfs:label "Gofyl comprimidos recubiertos 100 mg     " ;
+	schema:registro "F-16949/08" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/axon-pharma-> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-1439> a schema:Resolucion ;
+	rdfs:label "resolucin-n-1439" ;
+	dcterms:identifier "resolucin-n-1439" ;
+	dcterms:created "2010-05-19"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/gofyl-comprimidos-recubiertos-100-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-1439> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/trastornos-mentales> .
+
+<http://graves.cl/bioequivalencia/medicamento/gofyl-comprimidos-recubiertos-200-mg-> a schema:Medicamento ;
+	dcterms:identifier "8" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/quetiapina> ;
+	rdfs:label "Gofyl comprimidos recubiertos 200 mg       " ;
+	schema:registro "F-16948/08" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/axon-pharma-> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-1438> a schema:Resolucion ;
+	rdfs:label "resolucin-n-1438" ;
+	dcterms:identifier "resolucin-n-1438" ;
+	dcterms:created "2010-05-19"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/gofyl-comprimidos-recubiertos-200-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-1438> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/trastornos-mentales> .
+
+<http://graves.cl/bioequivalencia/medicamento/clorfenamina-maleato-comprimidos-4-mg-> a schema:Medicamento ;
+	dcterms:identifier "9" .
+
+<http://graves.cl/bioequivalencia/principioactivo%2Fclorfenamina+maleato+> a schema:PrincipioActivo ;
+	rdfs:label "Clorfenamina Maleato " .
+
+<http://graves.cl/bioequivalencia/medicamento/clorfenamina-maleato-comprimidos-4-mg-> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo%2Fclorfenamina+maleato+> ;
+	rdfs:label "Clorfenamina maleato comprimidos 4 mg  " ;
+	schema:registro "F-14519/10 " .
+
+<http://graves.cl/bioequivalencia/titular/laboratorio-andrmaco> a schema:Titular .
+
+<http://graves.cl/bioequivalencia/medicamento/clorfenamina-maleato-comprimidos-4-mg-> schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-andrmaco> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-1665> a schema:Resolucion ;
+	rdfs:label "resolucin-n-1665" ;
+	dcterms:identifier "resolucin-n-1665" ;
+	dcterms:created "2010-06-02"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/clorfenamina-maleato-comprimidos-4-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-1665> .
+
+<http://graves.cl/bioequivalencia/enfermedad/antialergico> a schema:Tratamiento ;
+	rdfs:label "Antialergico" .
+
+<http://graves.cl/bioequivalencia/medicamento/clorfenamina-maleato-comprimidos-4-mg-> schema:uso <http://graves.cl/bioequivalencia/enfermedad/antialergico> .
+
+<http://graves.cl/bioequivalencia/medicamento/biolev-comprimidos-recubiertos-150-mg-> a schema:Medicamento ;
+	dcterms:identifier "10" .
+
+<http://graves.cl/bioequivalencia/principioactivo/bicalutamida> a schema:PrincipioActivo ;
+	rdfs:label "Bicalutamida" .
+
+<http://graves.cl/bioequivalencia/medicamento/biolev-comprimidos-recubiertos-150-mg-> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/bicalutamida> ;
+	rdfs:label "Biolev comprimidos recubiertos 150 mg " ;
+	schema:registro "F-17057/08" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-rider-> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-1740> a schema:Resolucion ;
+	rdfs:label "resolucin-n-1740" ;
+	dcterms:identifier "resolucin-n-1740" ;
+	dcterms:created "2010-06-09"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/biolev-comprimidos-recubiertos-150-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-1740> .
+
+<http://graves.cl/bioequivalencia/enfermedad/cancer-de-prostata> a schema:Tratamiento ;
+	rdfs:label "Cancer de prostata" .
+
+<http://graves.cl/bioequivalencia/medicamento/biolev-comprimidos-recubiertos-150-mg-> schema:uso <http://graves.cl/bioequivalencia/enfermedad/cancer-de-prostata> .
+
+<http://graves.cl/bioequivalencia/medicamento/neolarmax-comprimidos-recubiertos-5-mg-> a schema:Medicamento ;
+	dcterms:identifier "11" .
+
+<http://graves.cl/bioequivalencia/principioactivo/desloratadina> a schema:PrincipioActivo ;
+	rdfs:label "Desloratadina" .
+
+<http://graves.cl/bioequivalencia/medicamento/neolarmax-comprimidos-recubiertos-5-mg-> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/desloratadina> ;
+	rdfs:label "Neolarmax comprimidos recubiertos 5 mg   " ;
+	schema:registro "F-14617/10" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-andrmaco> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-2060-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-2060-" ;
+	dcterms:identifier "resolucin-n-2060-" ;
+	dcterms:created "2010-07-12"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/neolarmax-comprimidos-recubiertos-5-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-2060-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/antialergico> .
+
+<http://graves.cl/bioequivalencia/medicamento/biolev-comprimidos-recubiertos-50-mg> a schema:Medicamento ;
+	dcterms:identifier "12" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/bicalutamida> ;
+	rdfs:label "Biolev comprimidos recubiertos 50 mg" ;
+	schema:registro "F-17047/08" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-rider-> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-2118-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-2118-" ;
+	dcterms:identifier "resolucin-n-2118-" ;
+	dcterms:created "2010-07-19"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/biolev-comprimidos-recubiertos-50-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-2118-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/cancer-de-prostata> .
+
+<http://graves.cl/bioequivalencia/medicamento/equoral-cpsulas-blandas-100-mg-> a schema:Medicamento ;
+	dcterms:identifier "13" .
+
+<http://graves.cl/bioequivalencia/principioactivo/ciclosporina> a schema:PrincipioActivo ;
+	rdfs:label "Ciclosporina" .
+
+<http://graves.cl/bioequivalencia/medicamento/equoral-cpsulas-blandas-100-mg-> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/ciclosporina> ;
+	rdfs:label "Equoral cápsulas blandas 100 mg " ;
+	schema:registro "F-14878/10" .
+
+<http://graves.cl/bioequivalencia/titular/laboratorio-chile> a schema:Titular .
+
+<http://graves.cl/bioequivalencia/medicamento/equoral-cpsulas-blandas-100-mg-> schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-chile> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-2717> a schema:Resolucion ;
+	rdfs:label "resolucin-n-2717" ;
+	dcterms:identifier "resolucin-n-2717" ;
+	dcterms:created "2010-09-15"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/equoral-cpsulas-blandas-100-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-2717> .
+
+<http://graves.cl/bioequivalencia/enfermedad/trasplante-de-organos> a schema:Tratamiento ;
+	rdfs:label "Trasplante de organos" .
+
+<http://graves.cl/bioequivalencia/medicamento/equoral-cpsulas-blandas-100-mg-> schema:uso <http://graves.cl/bioequivalencia/enfermedad/trasplante-de-organos> .
+
+<http://graves.cl/bioequivalencia/medicamento/histafed-comprimidos-4-mg-> a schema:Medicamento ;
+	dcterms:identifier "14" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo%2Fclorfenamina+maleato+> ;
+	rdfs:label "Histafed comprimidos 4 mg     " ;
+	schema:registro "F-15502/11" .
+
+<http://graves.cl/bioequivalencia/titular/laboratorio-fasa> a schema:Titular .
+
+<http://graves.cl/bioequivalencia/medicamento/histafed-comprimidos-4-mg-> schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-fasa> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-2952-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-2952-" ;
+	dcterms:identifier "resolucin-n-2952-" ;
+	dcterms:created "2010-10-15"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/histafed-comprimidos-4-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-2952-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/antialergico> .
+
+<http://graves.cl/bioequivalencia/medicamento/tiadis-comprimidos-recubietos-25-mg-> a schema:Medicamento ;
+	dcterms:identifier "15" .
+
+<http://graves.cl/bioequivalencia/principioactivo/letrozol> a schema:PrincipioActivo ;
+	rdfs:label "Letrozol" .
+
+<http://graves.cl/bioequivalencia/medicamento/tiadis-comprimidos-recubietos-25-mg-> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/letrozol> ;
+	rdfs:label "Tiadis comprimidos recubietos 2,5 mg " ;
+	schema:registro "F-17717/09" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-rider-> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-3200-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-3200-" ;
+	dcterms:identifier "resolucin-n-3200-" ;
+	dcterms:created "2010-11-08"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/tiadis-comprimidos-recubietos-25-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-3200-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/cancer-de-mama> .
+
+<http://graves.cl/bioequivalencia/medicamento/muvend-comprimidos-025-mg-> a schema:Medicamento ;
+	dcterms:identifier "16" .
+
+<http://graves.cl/bioequivalencia/principioactivo/pramipexol> a schema:PrincipioActivo ;
+	rdfs:label "Pramipexol" .
+
+<http://graves.cl/bioequivalencia/medicamento/muvend-comprimidos-025-mg-> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/pramipexol> ;
+	rdfs:label "Muvend comprimidos 0,25 mg " ;
+	schema:registro "F-17685/09" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-rider-> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-3205> a schema:Resolucion ;
+	rdfs:label "resolucin-n-3205" ;
+	dcterms:identifier "resolucin-n-3205" ;
+	dcterms:created "2010-11-08"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/muvend-comprimidos-025-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-3205> .
+
+<http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-parkinson> a schema:Tratamiento ;
+	rdfs:label "Tratamiento de parkinson" .
+
+<http://graves.cl/bioequivalencia/medicamento/muvend-comprimidos-025-mg-> schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-parkinson> .
+
+<http://graves.cl/bioequivalencia/medicamento/evimal-comprimidos-recubiertos-10-mg-> a schema:Medicamento ;
+	dcterms:identifier "17" .
+
+<http://graves.cl/bioequivalencia/principioactivo/donepecilo> a schema:PrincipioActivo ;
+	rdfs:label "Donepecilo" .
+
+<http://graves.cl/bioequivalencia/medicamento/evimal-comprimidos-recubiertos-10-mg-> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/donepecilo> ;
+	rdfs:label "Evimal comprimidos recubiertos 10 mg   " ;
+	schema:registro "F-12081/12" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-andrmaco> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-3488-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-3488-" ;
+	dcterms:identifier "resolucin-n-3488-" ;
+	dcterms:created "2010-12-07"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/evimal-comprimidos-recubiertos-10-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-3488-> .
+
+<http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-alzheimer> a schema:Tratamiento ;
+	rdfs:label "Tratamiento de alzheimer" .
+
+<http://graves.cl/bioequivalencia/medicamento/evimal-comprimidos-recubiertos-10-mg-> schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-alzheimer> .
+
+<http://graves.cl/bioequivalencia/medicamento/olanzyl-comprimidos-recubiertos-10-mg-> a schema:Medicamento ;
+	dcterms:identifier "18" .
+
+<http://graves.cl/bioequivalencia/principioactivo/olanzapina> a schema:PrincipioActivo ;
+	rdfs:label "Olanzapina" .
+
+<http://graves.cl/bioequivalencia/medicamento/olanzyl-comprimidos-recubiertos-10-mg-> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/olanzapina> ;
+	rdfs:label "Olanzyl comprimidos recubiertos 10 mg " ;
+	schema:registro "F-16439/12" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/axon-pharma-> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-243> a schema:Resolucion ;
+	rdfs:label "resolucin-n-243" ;
+	dcterms:identifier "resolucin-n-243" ;
+	dcterms:created "2011-01-28"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/olanzyl-comprimidos-recubiertos-10-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-243> .
+
+<http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-esquizofrenia> a schema:Tratamiento ;
+	rdfs:label "Tratamiento de esquizofrenia" .
+
+<http://graves.cl/bioequivalencia/medicamento/olanzyl-comprimidos-recubiertos-10-mg-> schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-esquizofrenia> .
+
+<http://graves.cl/bioequivalencia/medicamento/equoral-cpsulas-blandas-50-mg-> a schema:Medicamento ;
+	dcterms:identifier "19" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/ciclosporina> ;
+	rdfs:label "Equoral  cápsulas blandas 50 mg " ;
+	schema:registro "F-14877/10" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-chile> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-274> a schema:Resolucion ;
+	rdfs:label "resolucin-n-274" ;
+	dcterms:identifier "resolucin-n-274" ;
+	dcterms:created "2011-02-03"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/equoral-cpsulas-blandas-50-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-274> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/trasplante-de-organos> .
+
+<http://graves.cl/bioequivalencia/medicamento/equoral-cpsulas-blandas-25-mg-> a schema:Medicamento ;
+	dcterms:identifier "20" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/ciclosporina> ;
+	rdfs:label "Equoral cápsulas blandas 25 mg " ;
+	schema:registro "F-14876/10" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-chile> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-273> a schema:Resolucion ;
+	rdfs:label "resolucin-n-273" ;
+	dcterms:identifier "resolucin-n-273" ;
+	dcterms:created "2011-02-03"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/equoral-cpsulas-blandas-25-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-273> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/trasplante-de-organos> .
+
+<http://graves.cl/bioequivalencia/medicamento/suprimum-comprimidos-recubiertos-500-mg-> a schema:Medicamento ;
+	dcterms:identifier "21" .
+
+<http://graves.cl/bioequivalencia/principioactivo%2Fmicofenolato+mofetilo> a schema:PrincipioActivo ;
+	rdfs:label "Micofenolato Mofetilo" .
+
+<http://graves.cl/bioequivalencia/medicamento/suprimum-comprimidos-recubiertos-500-mg-> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo%2Fmicofenolato+mofetilo> ;
+	rdfs:label "Suprimum comprimidos recubiertos 500 mg " ;
+	schema:registro "F-15308/10" .
+
+<http://graves.cl/bioequivalencia/titular/etex-chile-farmacutica> a schema:Titular .
+
+<http://graves.cl/bioequivalencia/medicamento/suprimum-comprimidos-recubiertos-500-mg-> schema:titular <http://graves.cl/bioequivalencia/titular/etex-chile-farmacutica> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-419> a schema:Resolucion ;
+	rdfs:label "resolucin-n-419" ;
+	dcterms:identifier "resolucin-n-419" ;
+	dcterms:created "2011-03-04"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/suprimum-comprimidos-recubiertos-500-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-419> .
+
+
+<http://graves.cl/bioequivalencia/medicamento/suprimum-comprimidos-recubiertos-500-mg-> schema:uso <http://graves.cl/bioequivalencia/enfermedad/trasplante-de-organos> .
+
+<http://graves.cl/bioequivalencia/medicamento/efavirenz-comprimidos-recubiertos-600-mg> a schema:Medicamento ;
+	dcterms:identifier "22" .
+
+<http://graves.cl/bioequivalencia/principioactivo/efavirenz> a schema:PrincipioActivo ;
+	rdfs:label "Efavirenz" .
+
+<http://graves.cl/bioequivalencia/medicamento/efavirenz-comprimidos-recubiertos-600-mg> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/efavirenz> ;
+	rdfs:label "Efavirenz comprimidos recubiertos 600 mg" ;
+	schema:registro "F-18539/11" .
+
+<http://graves.cl/bioequivalencia/titular/pharma-genexx> a schema:Titular .
+
+<http://graves.cl/bioequivalencia/medicamento/efavirenz-comprimidos-recubiertos-600-mg> schema:titular <http://graves.cl/bioequivalencia/titular/pharma-genexx> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-rw-3067> a schema:Resolucion ;
+	rdfs:label "resolucin-rw-3067" ;
+	dcterms:identifier "resolucin-rw-3067" ;
+	dcterms:created "2011-03-11"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/efavirenz-comprimidos-recubiertos-600-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-rw-3067> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-vihsida> .
+
+<http://graves.cl/bioequivalencia/medicamento/tranquinal-comprimidos-05-mg-> a schema:Medicamento ;
+	dcterms:identifier "23" .
+
+<http://graves.cl/bioequivalencia/principioactivo/alprazolam> a schema:PrincipioActivo ;
+	rdfs:label "Alprazolam" .
+
+<http://graves.cl/bioequivalencia/medicamento/tranquinal-comprimidos-05-mg-> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/alprazolam> ;
+	rdfs:label "Tranquinal comprimidos 0,5 mg " ;
+	schema:registro "F-9663/11" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-bag-> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-450-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-450-" ;
+	dcterms:identifier "resolucin-n-450-" ;
+	dcterms:created "2011-03-14"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/tranquinal-comprimidos-05-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-450-> .
+
+<http://graves.cl/bioequivalencia/enfermedad/ansiedad> a schema:Tratamiento ;
+	rdfs:label "Ansiedad" .
+
+<http://graves.cl/bioequivalencia/medicamento/tranquinal-comprimidos-05-mg-> schema:uso <http://graves.cl/bioequivalencia/enfermedad/ansiedad> .
+
+<http://graves.cl/bioequivalencia/medicamento/clorfenamina-maleato-comprimidos-4-mg-> dcterms:identifier "24" ;
+	schema:registro "F-3901/10" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-chile> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-987-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-987-" ;
+	dcterms:identifier "resolucin-n-987-" ;
+	dcterms:created "2011-06-01"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/clorfenamina-maleato-comprimidos-4-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-987-> .
+
+<http://graves.cl/bioequivalencia/medicamento/nervix-comprimidos-recubiertos-75-mg> a schema:Medicamento ;
+	dcterms:identifier "25" .
+
+<http://graves.cl/bioequivalencia/principioactivo/venlafaxina> a schema:PrincipioActivo ;
+	rdfs:label "Venlafaxina" .
+
+<http://graves.cl/bioequivalencia/medicamento/nervix-comprimidos-recubiertos-75-mg> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/venlafaxina> ;
+	rdfs:label "Nervix comprimidos recubiertos 75 mg" ;
+	schema:registro "F-12491/07" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-bag-> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-1074> a schema:Resolucion ;
+	rdfs:label "resolucin-n-1074" ;
+	dcterms:identifier "resolucin-n-1074" ;
+	dcterms:created "2011-06-13"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/nervix-comprimidos-recubiertos-75-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-1074> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/antidepresivo> .
+
+<http://graves.cl/bioequivalencia/medicamento/prodel-comprimidos-4-mg-> a schema:Medicamento ;
+	dcterms:identifier "26" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo%2Fclorfenamina+maleato+> ;
+	rdfs:label "Prodel comprimidos 4 mg           " ;
+	schema:registro "F-1209/08" .
+
+<http://graves.cl/bioequivalencia/titular/laboratorio-pasteur> a schema:Titular .
+
+<http://graves.cl/bioequivalencia/medicamento/prodel-comprimidos-4-mg-> schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-pasteur> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-1167> a schema:Resolucion ;
+	rdfs:label "resolucin-n-1167" ;
+	dcterms:identifier "resolucin-n-1167" ;
+	dcterms:created "2011-06-28"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/prodel-comprimidos-4-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-1167> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/antialergico> .
+
+<http://graves.cl/bioequivalencia/medicamento/zeite-comprimidos-recubiertos-400-mg-> a schema:Medicamento ;
+	dcterms:identifier "27" .
+
+<http://graves.cl/bioequivalencia/principioactivo%2Fimatinib+mesitato> a schema:PrincipioActivo ;
+	rdfs:label "Imatinib Mesitato" .
+
+<http://graves.cl/bioequivalencia/medicamento/zeite-comprimidos-recubiertos-400-mg-> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo%2Fimatinib+mesitato> ;
+	rdfs:label "Zeite comprimidos recubiertos 400 mg " ;
+	schema:registro "F-15844/11" .
+
+<http://graves.cl/bioequivalencia/titular/laboratorio-recalcine> a schema:Titular .
+
+<http://graves.cl/bioequivalencia/medicamento/zeite-comprimidos-recubiertos-400-mg-> schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-recalcine> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-1166-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-1166-" ;
+	dcterms:identifier "resolucin-n-1166-" ;
+	dcterms:created "2011-06-28"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/zeite-comprimidos-recubiertos-400-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-1166-> .
+
+<http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-leucemia> a schema:Tratamiento ;
+	rdfs:label "Tratamiento de leucemia" .
+
+<http://graves.cl/bioequivalencia/medicamento/zeite-comprimidos-recubiertos-400-mg-> schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-leucemia> .
+
+<http://graves.cl/bioequivalencia/medicamento/olanzyl-comprimidos-5-mg-> a schema:Medicamento ;
+	dcterms:identifier "28" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/olanzapina> ;
+	rdfs:label "Olanzyl comprimidos 5 mg " ;
+	schema:registro "F-16440/12" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/axon-pharma-> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-1193> a schema:Resolucion ;
+	rdfs:label "resolucin-n-1193" ;
+	dcterms:identifier "resolucin-n-1193" ;
+	dcterms:created "2011-07-01"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/olanzyl-comprimidos-5-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-1193> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-esquizofrenia> .
+
+<http://graves.cl/bioequivalencia/medicamento/livertox-comprimidos-recubiertos-20-mg> a schema:Medicamento ;
+	dcterms:identifier "29" .
+
+<http://graves.cl/bioequivalencia/principioactivo/fluoxetina> a schema:PrincipioActivo ;
+	rdfs:label "Fluoxetina" .
+
+<http://graves.cl/bioequivalencia/medicamento/livertox-comprimidos-recubiertos-20-mg> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/fluoxetina> ;
+	rdfs:label "Livertox comprimidos recubiertos 20 mg" ;
+	schema:registro "F-9657/11" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-bag-> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-1249-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-1249-" ;
+	dcterms:identifier "resolucin-n-1249-" ;
+	dcterms:created "2011-07-07"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/livertox-comprimidos-recubiertos-20-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-1249-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/antidepresivo> .
+
+<http://graves.cl/bioequivalencia/medicamento/lamivudina-zidovudina-comprimidos-recubiertos> a schema:Medicamento ;
+	dcterms:identifier "30" .
+
+<http://graves.cl/bioequivalencia/principioactivo%2Flamivudina+%2B+zidovudina> a schema:PrincipioActivo ;
+	rdfs:label "Lamivudina + Zidovudina" .
+
+<http://graves.cl/bioequivalencia/medicamento/lamivudina-zidovudina-comprimidos-recubiertos> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo%2Flamivudina+%2B+zidovudina> ;
+	rdfs:label "Lamivudina / Zidovudina comprimidos recubiertos" ;
+	schema:registro "F-18059/10" .
+
+<http://graves.cl/bioequivalencia/titular/opko-chile> a schema:Titular .
+
+<http://graves.cl/bioequivalencia/medicamento/lamivudina-zidovudina-comprimidos-recubiertos> schema:titular <http://graves.cl/bioequivalencia/titular/opko-chile> .
+
+<http://graves.cl/bioequivalencia/resolucion/certificado-n-916-> a schema:Resolucion ;
+	rdfs:label "certificado-n-916-" ;
+	dcterms:identifier "certificado-n-916-" ;
+	dcterms:created "2011-08-03"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/lamivudina-zidovudina-comprimidos-recubiertos> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/certificado-n-916-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-vihsida> .
+
+<http://graves.cl/bioequivalencia/medicamento/norvir-comprimidos-recubiertos-100-mg-> a schema:Medicamento ;
+	dcterms:identifier "31" .
+
+<http://graves.cl/bioequivalencia/principioactivo/ritonavir> a schema:PrincipioActivo ;
+	rdfs:label "Ritonavir" .
+
+<http://graves.cl/bioequivalencia/medicamento/norvir-comprimidos-recubiertos-100-mg-> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/ritonavir> ;
+	rdfs:label "Norvir comprimidos recubiertos 100 mg " ;
+	schema:registro "F-18866/10" .
+
+<http://graves.cl/bioequivalencia/titular/abott-laboratories> a schema:Titular .
+
+<http://graves.cl/bioequivalencia/medicamento/norvir-comprimidos-recubiertos-100-mg-> schema:titular <http://graves.cl/bioequivalencia/titular/abott-laboratories> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-rw-15725> a schema:Resolucion ;
+	rdfs:label "resolucin-rw-15725" ;
+	dcterms:identifier "resolucin-rw-15725" ;
+	dcterms:created "2011-09-09"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/norvir-comprimidos-recubiertos-100-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-rw-15725> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-vihsida> .
+
+<http://graves.cl/bioequivalencia/medicamento/micofenolato-mofetilo-cpsulas-250-mg> a schema:Medicamento ;
+	dcterms:identifier "32" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo%2Fmicofenolato+mofetilo> ;
+	rdfs:label "Micofenolato mofetilo cápsulas 250 mg" ;
+	schema:registro "F-18230/10" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-chile> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-1702-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-1702-" ;
+	dcterms:identifier "resolucin-n-1702-" ;
+	dcterms:created "2011-09-09"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/micofenolato-mofetilo-cpsulas-250-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-1702-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/trasplante-de-organos> .
+
+<http://graves.cl/bioequivalencia/medicamento/micofenolato-mofetilo-comprimidos-recubiertos-500-mg> a schema:Medicamento ;
+	dcterms:identifier "33" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo%2Fmicofenolato+mofetilo> ;
+	rdfs:label "Micofenolato Mofetilo comprimidos recubiertos 500 mg" ;
+	schema:registro "F-18229/10" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-chile> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-1707-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-1707-" ;
+	dcterms:identifier "resolucin-n-1707-" ;
+	dcterms:created "2011-09-09"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/micofenolato-mofetilo-comprimidos-recubiertos-500-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-1707-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/trasplante-de-organos> .
+
+<http://graves.cl/bioequivalencia/medicamento/lamivudina-comprimidos-150-mg-> a schema:Medicamento ;
+	dcterms:identifier "34" .
+
+<http://graves.cl/bioequivalencia/principioactivo/lamivudina> a schema:PrincipioActivo ;
+	rdfs:label "Lamivudina" .
+
+<http://graves.cl/bioequivalencia/medicamento/lamivudina-comprimidos-150-mg-> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/lamivudina> ;
+	rdfs:label "Lamivudina comprimidos 150 mg          " ;
+	schema:registro "F-18240/10" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/opko-chile> .
+
+<http://graves.cl/bioequivalencia/resolucion/certificado-n-1126-> a schema:Resolucion ;
+	rdfs:label "certificado-n-1126-" ;
+	dcterms:identifier "certificado-n-1126-" ;
+	dcterms:created "2011-09-20"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/lamivudina-comprimidos-150-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/certificado-n-1126-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-vihsida> .
+
+<http://graves.cl/bioequivalencia/medicamento/nevirapina-comprimidos-200-mg-> a schema:Medicamento ;
+	dcterms:identifier "35" .
+
+<http://graves.cl/bioequivalencia/principioactivo/nevirapina> a schema:PrincipioActivo ;
+	rdfs:label "Nevirapina" .
+
+<http://graves.cl/bioequivalencia/medicamento/nevirapina-comprimidos-200-mg-> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/nevirapina> ;
+	rdfs:label "Nevirapina comprimidos 200 mg                      " ;
+	schema:registro "F-18330/10" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/opko-chile> .
+
+<http://graves.cl/bioequivalencia/resolucion/certificado-n-1127-> a schema:Resolucion ;
+	rdfs:label "certificado-n-1127-" ;
+	dcterms:identifier "certificado-n-1127-" ;
+	dcterms:created "2011-09-20"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/nevirapina-comprimidos-200-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/certificado-n-1127-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-vihsida> .
+
+<http://graves.cl/bioequivalencia/medicamento/mixovir-comprimidos-recubiertos-150-mg> a schema:Medicamento ;
+	dcterms:identifier "36" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/lamivudina> ;
+	rdfs:label "Mixovir comprimidos recubiertos 150 mg" ;
+	schema:registro "F-11807/12" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-andrmaco> .
+
+<http://graves.cl/bioequivalencia/resolucion/certificado-n-1128-> a schema:Resolucion ;
+	rdfs:label "certificado-n-1128-" ;
+	dcterms:identifier "certificado-n-1128-" ;
+	dcterms:created "2011-09-20"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/mixovir-comprimidos-recubiertos-150-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/certificado-n-1128-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-vihsida> .
+
+<http://graves.cl/bioequivalencia/medicamento/mantaviral-comprimidos-recubiertos-300-mg> a schema:Medicamento ;
+	dcterms:identifier "37" .
+
+<http://graves.cl/bioequivalencia/principioactivo/zidovudina> a schema:PrincipioActivo ;
+	rdfs:label "Zidovudina" .
+
+<http://graves.cl/bioequivalencia/medicamento/mantaviral-comprimidos-recubiertos-300-mg> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/zidovudina> ;
+	rdfs:label "Mantaviral comprimidos recubiertos 300 mg" ;
+	schema:registro "F-10104/11" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-andrmaco> .
+
+<http://graves.cl/bioequivalencia/resolucion/certificado-n-1203-> a schema:Resolucion ;
+	rdfs:label "certificado-n-1203-" ;
+	dcterms:identifier "certificado-n-1203-" ;
+	dcterms:created "2011-10-05"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/mantaviral-comprimidos-recubiertos-300-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/certificado-n-1203-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-vihsida> .
+
+<http://graves.cl/bioequivalencia/medicamento/nevirapina-comprimidos-200-mg> a schema:Medicamento ;
+	dcterms:identifier "38" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/nevirapina> ;
+	rdfs:label "Nevirapina comprimidos 200 mg" ;
+	schema:registro "F-16088/12" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-andrmaco> .
+
+<http://graves.cl/bioequivalencia/resolucion/certificado-n-1202-> a schema:Resolucion ;
+	rdfs:label "certificado-n-1202-" ;
+	dcterms:identifier "certificado-n-1202-" ;
+	dcterms:created "2011-10-05"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/nevirapina-comprimidos-200-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/certificado-n-1202-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-vihsida> .
+
+<http://graves.cl/bioequivalencia/medicamento/bivir-comprimidos-recubiertos-> a schema:Medicamento ;
+	dcterms:identifier "39" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo%2Flamivudina+%2B+zidovudina> ;
+	rdfs:label "Bivir comprimidos recubiertos " ;
+	schema:registro "F-12502/07" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-andrmaco> .
+
+<http://graves.cl/bioequivalencia/resolucion/certificado-n-1201-> a schema:Resolucion ;
+	rdfs:label "certificado-n-1201-" ;
+	dcterms:identifier "certificado-n-1201-" ;
+	dcterms:created "2011-10-05"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/bivir-comprimidos-recubiertos-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/certificado-n-1201-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-vihsida> .
+
+<http://graves.cl/bioequivalencia/medicamento/lamivudina-zidovudina-150300-comprimidos-recubiertos-> a schema:Medicamento ;
+	dcterms:identifier "40" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo%2Flamivudina+%2B+zidovudina> ;
+	rdfs:label "Lamivudina + Zidovudina 150/300 comprimidos recubiertos " ;
+	schema:registro "F-18940/11" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-andrmaco> .
+
+<http://graves.cl/bioequivalencia/resolucion/certificado-n-1436-> a schema:Resolucion ;
+	rdfs:label "certificado-n-1436-" ;
+	dcterms:identifier "certificado-n-1436-" ;
+	dcterms:created "2011-11-28"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/lamivudina-zidovudina-150300-comprimidos-recubiertos-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/certificado-n-1436-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-vihsida> .
+
+<http://graves.cl/bioequivalencia/medicamento/-lamivudina-comprimidos-recubiertos-150-mg> a schema:Medicamento ;
+	dcterms:identifier "41" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/lamivudina> ;
+	rdfs:label " Lamivudina comprimidos recubiertos 150 mg" ;
+	schema:registro "F-18962/11" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-andrmaco> .
+
+<http://graves.cl/bioequivalencia/resolucion/certificado-n-1517-> a schema:Resolucion ;
+	rdfs:label "certificado-n-1517-" ;
+	dcterms:identifier "certificado-n-1517-" ;
+	dcterms:created "2011-12-29"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/-lamivudina-comprimidos-recubiertos-150-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/certificado-n-1517-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-vihsida> .
+
+<http://graves.cl/bioequivalencia/medicamento/nipolen-comprimidos-4-mg-> a schema:Medicamento ;
+	dcterms:identifier "42" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo%2Fclorfenamina+maleato+> ;
+	rdfs:label "Nipolen comprimidos 4 mg " ;
+	schema:registro "F-13441/08" .
+
+<http://graves.cl/bioequivalencia/titular/laboratorio-mintlab> a schema:Titular .
+
+<http://graves.cl/bioequivalencia/medicamento/nipolen-comprimidos-4-mg-> schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-mintlab> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-71-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-71-" ;
+	dcterms:identifier "resolucin-n-71-" ;
+	dcterms:created "2012-01-12"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/nipolen-comprimidos-4-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-71-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/antialergico> .
+
+<http://graves.cl/bioequivalencia/medicamento/prednisona-comprimidos-5-mg-> a schema:Medicamento ;
+	dcterms:identifier "43" .
+
+<http://graves.cl/bioequivalencia/principioactivo/prednisona> a schema:PrincipioActivo ;
+	rdfs:label "Prednisona" .
+
+<http://graves.cl/bioequivalencia/medicamento/prednisona-comprimidos-5-mg-> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/prednisona> ;
+	rdfs:label "Prednisona comprimidos 5 mg " ;
+	schema:registro "F-3376/10" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-mintlab> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-69-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-69-" ;
+	dcterms:identifier "resolucin-n-69-" ;
+	dcterms:created "2012-01-12"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/prednisona-comprimidos-5-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-69-> .
+
+<http://graves.cl/bioequivalencia/enfermedad/corticoterapia> a schema:Tratamiento ;
+	rdfs:label "Corticoterapia" .
+
+<http://graves.cl/bioequivalencia/medicamento/prednisona-comprimidos-5-mg-> schema:uso <http://graves.cl/bioequivalencia/enfermedad/corticoterapia> .
+
+<http://graves.cl/bioequivalencia/medicamento/-clorfenamina-maleato-comprimidos-4-mg> a schema:Medicamento ;
+	dcterms:identifier "44" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo%2Fclorfenamina+maleato+> ;
+	rdfs:label " Clorfenamina maleato comprimidos 4 mg" ;
+	schema:registro "F-6877/10" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-mintlab> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-70-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-70-" ;
+	dcterms:identifier "resolucin-n-70-" ;
+	dcterms:created "2012-01-12"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/-clorfenamina-maleato-comprimidos-4-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-70-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/antialergico> ;
+	dcterms:identifier "45" ;
+	schema:registro "F-2310/09" .
+
+<http://graves.cl/bioequivalencia/titular/laboratorio-maver-> a schema:Titular .
+
+<http://graves.cl/bioequivalencia/medicamento/-clorfenamina-maleato-comprimidos-4-mg> schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-maver-> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-103-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-103-" ;
+	dcterms:identifier "resolucin-n-103-" ;
+	dcterms:created "2012-01-13"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/-clorfenamina-maleato-comprimidos-4-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-103-> .
+
+<http://graves.cl/bioequivalencia/medicamento/-ximavir-comprimidos-recubiertos-150-mg> a schema:Medicamento ;
+	dcterms:identifier "46" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/lamivudina> ;
+	rdfs:label " Ximavir comprimidos recubiertos 150 mg" ;
+	schema:registro "F-18963/11" .
+
+<http://graves.cl/bioequivalencia/titular/master-care-> a schema:Titular .
+
+<http://graves.cl/bioequivalencia/medicamento/-ximavir-comprimidos-recubiertos-150-mg> schema:titular <http://graves.cl/bioequivalencia/titular/master-care-> .
+
+<http://graves.cl/bioequivalencia/resolucion/certificado-n-55-> a schema:Resolucion ;
+	rdfs:label "certificado-n-55-" ;
+	dcterms:identifier "certificado-n-55-" ;
+	dcterms:created "2012-01-13"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/-ximavir-comprimidos-recubiertos-150-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/certificado-n-55-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-vihsida> .
+
+<http://graves.cl/bioequivalencia/medicamento/-maxivir-comprimidos-recubiertos> a schema:Medicamento ;
+	dcterms:identifier "47" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo%2Flamivudina+%2B+zidovudina> ;
+	rdfs:label " Maxivir comprimidos recubiertos" ;
+	schema:registro "F-18966/11" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/master-care-> .
+
+<http://graves.cl/bioequivalencia/resolucion/certificado-n-56-> a schema:Resolucion ;
+	rdfs:label "certificado-n-56-" ;
+	dcterms:identifier "certificado-n-56-" ;
+	dcterms:created "2012-01-13"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/-maxivir-comprimidos-recubiertos> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/certificado-n-56-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-vihsida> .
+
+<http://graves.cl/bioequivalencia/medicamento/-zidovudina-comprimidos-recubiertos-300-mg-> a schema:Medicamento ;
+	dcterms:identifier "48" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/zidovudina> ;
+	rdfs:label " Zidovudina comprimidos recubiertos 300 mg " ;
+	schema:registro "F-19083/11" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/master-care-> .
+
+<http://graves.cl/bioequivalencia/resolucion/certificado-n-52-> a schema:Resolucion ;
+	rdfs:label "certificado-n-52-" ;
+	dcterms:identifier "certificado-n-52-" ;
+	dcterms:created "2012-01-13"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/-zidovudina-comprimidos-recubiertos-300-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/certificado-n-52-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-vihsida> .
+
+<http://graves.cl/bioequivalencia/medicamento/-lamivudina-comprimidos-recubiertos-150-mg-> a schema:Medicamento ;
+	dcterms:identifier "49" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/lamivudina> ;
+	rdfs:label " Lamivudina comprimidos recubiertos 150 mg " ;
+	schema:registro "F-19082/11" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/master-care-> .
+
+<http://graves.cl/bioequivalencia/resolucion/certificado-n-57-> a schema:Resolucion ;
+	rdfs:label "certificado-n-57-" ;
+	dcterms:identifier "certificado-n-57-" ;
+	dcterms:created "2012-01-13"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/-lamivudina-comprimidos-recubiertos-150-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/certificado-n-57-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-vihsida> .
+
+<http://graves.cl/bioequivalencia/medicamento/-neviparina-comprimidos-200-mg-> a schema:Medicamento ;
+	dcterms:identifier "50" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/nevirapina> ;
+	rdfs:label " Neviparina comprimidos 200 mg  " ;
+	schema:registro "F-19080/11" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/master-care-> .
+
+<http://graves.cl/bioequivalencia/resolucion/certificado-n-54-> a schema:Resolucion ;
+	rdfs:label "certificado-n-54-" ;
+	dcterms:identifier "certificado-n-54-" ;
+	dcterms:created "2012-01-13"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/-neviparina-comprimidos-200-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/certificado-n-54-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-vihsida> .
+
+<http://graves.cl/bioequivalencia/medicamento/lamivudina-zidovudina-150300-comprimidos-recubiertos-mg-> a schema:Medicamento ;
+	dcterms:identifier "51" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo%2Flamivudina+%2B+zidovudina> ;
+	rdfs:label "Lamivudina + Zidovudina 150/300 comprimidos recubiertos mg   " ;
+	schema:registro "F-19081/11" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/master-care-> .
+
+<http://graves.cl/bioequivalencia/resolucion/certificado-n-59-> a schema:Resolucion ;
+	rdfs:label "certificado-n-59-" ;
+	dcterms:identifier "certificado-n-59-" ;
+	dcterms:created "2012-01-13"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/lamivudina-zidovudina-150300-comprimidos-recubiertos-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/certificado-n-59-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-vihsida> .
+
+<http://graves.cl/bioequivalencia/medicamento/-azaviral-comprimidos-recubiertos-300-mg> a schema:Medicamento ;
+	dcterms:identifier "52" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/zidovudina> ;
+	rdfs:label " Azaviral comprimidos recubiertos 300 mg" ;
+	schema:registro "F-19084/11" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/master-care-> .
+
+<http://graves.cl/bioequivalencia/resolucion/certificado-n-58-> a schema:Resolucion ;
+	rdfs:label "certificado-n-58-" ;
+	dcterms:identifier "certificado-n-58-" ;
+	dcterms:created "2012-01-13"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/-azaviral-comprimidos-recubiertos-300-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/certificado-n-58-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-vihsida> .
+
+<http://graves.cl/bioequivalencia/medicamento/-nevavir-comprimidos-200-mg-> a schema:Medicamento ;
+	dcterms:identifier "53" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/nevirapina> ;
+	rdfs:label " Nevavir comprimidos 200 mg " ;
+	schema:registro "F-19085/11" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/master-care-> .
+
+<http://graves.cl/bioequivalencia/resolucion/certificado-n-53-> a schema:Resolucion ;
+	rdfs:label "certificado-n-53-" ;
+	dcterms:identifier "certificado-n-53-" ;
+	dcterms:created "2012-01-13"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/-nevavir-comprimidos-200-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/certificado-n-53-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-vihsida> .
+
+<http://graves.cl/bioequivalencia/medicamento/cidimus-cpsulas-5-mg> a schema:Medicamento ;
+	dcterms:identifier "54" .
+
+<http://graves.cl/bioequivalencia/principioactivo/tacrolim√ös> a schema:PrincipioActivo ;
+	rdfs:label "Tacrolim√ös" .
+
+<http://graves.cl/bioequivalencia/medicamento/cidimus-cpsulas-5-mg> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/tacrolim√ös> ;
+	rdfs:label "Cidimus cápsulas 5 mg" ;
+	schema:registro "F-19210/12" .
+
+<http://graves.cl/bioequivalencia/titular/novartis-chile> a schema:Titular .
+
+<http://graves.cl/bioequivalencia/medicamento/cidimus-cpsulas-5-mg> schema:titular <http://graves.cl/bioequivalencia/titular/novartis-chile> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-998> a schema:Resolucion ;
+	rdfs:label "resolucin-n-998" ;
+	dcterms:identifier "resolucin-n-998" ;
+	dcterms:created "2012-01-18"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/cidimus-cpsulas-5-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-998> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/trasplante-de-organos> .
+
+<http://graves.cl/bioequivalencia/medicamento/cidimus-cpsulas-05-mg> a schema:Medicamento ;
+	dcterms:identifier "55" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/tacrolim√ös> ;
+	rdfs:label "Cidimus cápsulas 0,5  mg" ;
+	schema:registro "F-19209/12" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/novartis-chile> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-991> a schema:Resolucion ;
+	rdfs:label "resolucin-n-991" ;
+	dcterms:identifier "resolucin-n-991" ;
+	dcterms:created "2012-01-18"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/cidimus-cpsulas-05-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-991> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/trasplante-de-organos> .
+
+<http://graves.cl/bioequivalencia/medicamento/-prednisona-comprimidos-5-mg> a schema:Medicamento ;
+	dcterms:identifier "56" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/prednisona> ;
+	rdfs:label " Prednisona comprimidos 5 mg" ;
+	schema:registro "F-1400/08" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-chile> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-408-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-408-" ;
+	dcterms:identifier "resolucin-n-408-" ;
+	dcterms:created "2012-02-08"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/-prednisona-comprimidos-5-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-408-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/corticoterapia> .
+
+<http://graves.cl/bioequivalencia/medicamento/zidovudina-comprimidos-recubiertos-300-mg> a schema:Medicamento ;
+	dcterms:identifier "57" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/zidovudina> ;
+	rdfs:label "Zidovudina comprimidos recubiertos 300 mg" ;
+	schema:registro "F-19060/11" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-andrmaco> .
+
+<http://graves.cl/bioequivalencia/resolucion/certificado-n-217-> a schema:Resolucion ;
+	rdfs:label "certificado-n-217-" ;
+	dcterms:identifier "certificado-n-217-" ;
+	dcterms:created "2012-02-21"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/zidovudina-comprimidos-recubiertos-300-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/certificado-n-217-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-vihsida> .
+
+<http://graves.cl/bioequivalencia/medicamento/lamucon-comprimidos-recubiertos-500-mg> a schema:Medicamento ;
+	dcterms:identifier "58" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo%2Fmicofenolato+mofetilo> ;
+	rdfs:label "Lamucon comprimidos recubiertos 500 mg" ;
+	schema:registro "F-19321/12" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/novartis-chile> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-5285-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-5285-" ;
+	dcterms:identifier "resolucin-n-5285-" ;
+	dcterms:created "2012-03-22"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/lamucon-comprimidos-recubiertos-500-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-5285-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/trasplante-de-organos> .
+
+<http://graves.cl/bioequivalencia/medicamento/lamucon-cpsulas-250-mg-> a schema:Medicamento ;
+	dcterms:identifier "59" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo%2Fmicofenolato+mofetilo> ;
+	rdfs:label "Lamucon cápsulas 250 mg " ;
+	schema:registro "F-19323/12" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/novartis-chile> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-5366-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-5366-" ;
+	dcterms:identifier "resolucin-n-5366-" ;
+	dcterms:created "2012-03-23"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/lamucon-cpsulas-250-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-5366-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/trasplante-de-organos> .
+
+<http://graves.cl/bioequivalencia/medicamento/-rispyl-comprimidos-recubiertos-1-mg> a schema:Medicamento ;
+	dcterms:identifier "60" .
+
+<http://graves.cl/bioequivalencia/principioactivo/risperidona> a schema:PrincipioActivo ;
+	rdfs:label "Risperidona" .
+
+<http://graves.cl/bioequivalencia/medicamento/-rispyl-comprimidos-recubiertos-1-mg> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/risperidona> ;
+	rdfs:label " Rispyl comprimidos recubiertos 1 mg" ;
+	schema:registro "F-18894/11" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/axon-pharma-> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-831-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-831-" ;
+	dcterms:identifier "resolucin-n-831-" ;
+	dcterms:created "2012-03-28"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/-rispyl-comprimidos-recubiertos-1-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-831-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/trastornos-mentales> .
+
+<http://graves.cl/bioequivalencia/medicamento/-rispyl-comprimidos-recubiertos-2-mg> a schema:Medicamento ;
+	dcterms:identifier "61" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/risperidona> ;
+	rdfs:label " Rispyl comprimidos recubiertos 2 mg" ;
+	schema:registro "F-18839/11" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/axon-pharma-> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-830-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-830-" ;
+	dcterms:identifier "resolucin-n-830-" ;
+	dcterms:created "2012-03-28"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/-rispyl-comprimidos-recubiertos-2-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-830-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/trastornos-mentales> .
+
+<http://graves.cl/bioequivalencia/medicamento/-suprimum-cpsulas-250-mg> a schema:Medicamento ;
+	dcterms:identifier "62" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo%2Fmicofenolato+mofetilo> ;
+	rdfs:label " Suprimum cápsulas 250 mg" ;
+	schema:registro "F-15309/10" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/etex-chile-farmacutica> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-1042-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-1042-" ;
+	dcterms:identifier "resolucin-n-1042-" ;
+	dcterms:created "2012-04-18"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/-suprimum-cpsulas-250-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-1042-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/trasplante-de-organos> .
+
+<http://graves.cl/bioequivalencia/medicamento/-clorfenamina-maleato-comprimidos-4-mg-> a schema:Medicamento ;
+	dcterms:identifier "63" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo%2Fclorfenamina+maleato+> ;
+	rdfs:label " Clorfenamina maleato comprimidos 4 mg " ;
+	schema:registro "F-9495/11" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-rider-> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-1106-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-1106-" ;
+	dcterms:identifier "resolucin-n-1106-" ;
+	dcterms:created "2012-04-30"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/-clorfenamina-maleato-comprimidos-4-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-1106-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/antialergico> .
+
+<http://graves.cl/bioequivalencia/medicamento/-rispyl-comprimidos-recubiertos-3-mg> a schema:Medicamento ;
+	dcterms:identifier "64" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/risperidona> ;
+	rdfs:label " Rispyl comprimidos recubiertos 3 mg" ;
+	schema:registro "F-18840/11" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/axon-pharma-> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-1134-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-1134-" ;
+	dcterms:identifier "resolucin-n-1134-" ;
+	dcterms:created "2012-05-03"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/-rispyl-comprimidos-recubiertos-3-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-1134-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/trastornos-mentales> .
+
+<http://graves.cl/bioequivalencia/medicamento/-cidimus-cpsulas-1-mg> a schema:Medicamento ;
+	dcterms:identifier "65" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/tacrolim√ös> ;
+	rdfs:label " Cidimus cápsulas 1 mg" ;
+	schema:registro "F-19410/12" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/novartis-chile> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-8456> a schema:Resolucion ;
+	rdfs:label "resolucin-n-8456" ;
+	dcterms:identifier "resolucin-n-8456" ;
+	dcterms:created "2012-05-09"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/-cidimus-cpsulas-1-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-8456> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/trasplante-de-organos> .
+
+<http://graves.cl/bioequivalencia/medicamento/-pregalex-comprimidos-recubiertos-75-mg> a schema:Medicamento ;
+	dcterms:identifier "66" .
+
+<http://graves.cl/bioequivalencia/principioactivo/pregabalina> a schema:PrincipioActivo ;
+	rdfs:label "Pregabalina" .
+
+<http://graves.cl/bioequivalencia/medicamento/-pregalex-comprimidos-recubiertos-75-mg> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/pregabalina> ;
+	rdfs:label " Pregalex comprimidos recubiertos 75 mg" ;
+	schema:registro "F-16183/12" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-andrmaco> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-1273-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-1273-" ;
+	dcterms:identifier "resolucin-n-1273-" ;
+	dcterms:created "2012-05-23"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/-pregalex-comprimidos-recubiertos-75-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-1273-> .
+
+<http://graves.cl/bioequivalencia/enfermedad/antiepileptico-dolores-neuralgicos> a schema:Tratamiento ;
+	rdfs:label "Antiepileptico - Dolores neuralgicos" .
+
+<http://graves.cl/bioequivalencia/medicamento/-pregalex-comprimidos-recubiertos-75-mg> schema:uso <http://graves.cl/bioequivalencia/enfermedad/antiepileptico-dolores-neuralgicos> .
+
+<http://graves.cl/bioequivalencia/medicamento/-pregalex-comprimidos-recubiertos-150-mg> a schema:Medicamento ;
+	dcterms:identifier "67" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/pregabalina> ;
+	rdfs:label " Pregalex comprimidos recubiertos 150 mg" ;
+	schema:registro "F-16184/12" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-andrmaco> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-1272-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-1272-" ;
+	dcterms:identifier "resolucin-n-1272-" ;
+	dcterms:created "2012-05-23"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/-pregalex-comprimidos-recubiertos-150-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-1272-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/antiepileptico-dolores-neuralgicos> .
+
+<http://graves.cl/bioequivalencia/medicamento/-scadan-comprimidos-4-mg> a schema:Medicamento ;
+	dcterms:identifier "68" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo%2Fclorfenamina+maleato+> ;
+	rdfs:label " Scadan comprimidos 4 mg" ;
+	schema:registro "F-7764/11" .
+
+<http://graves.cl/bioequivalencia/titular/medipharm-> a schema:Titular .
+
+<http://graves.cl/bioequivalencia/medicamento/-scadan-comprimidos-4-mg> schema:titular <http://graves.cl/bioequivalencia/titular/medipharm-> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-1461> a schema:Resolucion ;
+	rdfs:label "resolucin-n-1461" ;
+	dcterms:identifier "resolucin-n-1461" ;
+	dcterms:created "2012-06-12"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/-scadan-comprimidos-4-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-1461> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/antialergico> .
+
+<http://graves.cl/bioequivalencia/medicamento/andibet-comprimidos-recubiertos-850-mg-> a schema:Medicamento ;
+	dcterms:identifier "69" .
+
+<http://graves.cl/bioequivalencia/principioactivo%2Fmetformina+clorhidrato> a schema:PrincipioActivo ;
+	rdfs:label "Metformina Clorhidrato" .
+
+<http://graves.cl/bioequivalencia/medicamento/andibet-comprimidos-recubiertos-850-mg-> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo%2Fmetformina+clorhidrato> ;
+	rdfs:label "Andibet comprimidos recubiertos 850 mg                                                    " ;
+	schema:registro "F-12065/12" .
+
+<http://graves.cl/bioequivalencia/titular/chemopharma-> a schema:Titular .
+
+<http://graves.cl/bioequivalencia/medicamento/andibet-comprimidos-recubiertos-850-mg-> schema:titular <http://graves.cl/bioequivalencia/titular/chemopharma-> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-1521> a schema:Resolucion ;
+	rdfs:label "resolucin-n-1521" ;
+	dcterms:identifier "resolucin-n-1521" ;
+	dcterms:created "2012-06-18"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/andibet-comprimidos-recubiertos-850-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-1521> .
+
+<http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-diabetes-mellitus> a schema:Tratamiento ;
+	rdfs:label "Tratamiento de Diabetes Mellitus" .
+
+<http://graves.cl/bioequivalencia/medicamento/andibet-comprimidos-recubiertos-850-mg-> schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-diabetes-mellitus> .
+
+<http://graves.cl/bioequivalencia/medicamento/metformina-comprimidos-recubiertos-850-mg-> a schema:Medicamento ;
+	dcterms:identifier "70" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo%2Fmetformina+clorhidrato> ;
+	rdfs:label "Metformina comprimidos recubiertos 850 mg                                                                      " ;
+	schema:registro "F-12064/12" .
+
+<http://graves.cl/bioequivalencia/titular/instituto-sanitas> a schema:Titular .
+
+<http://graves.cl/bioequivalencia/medicamento/metformina-comprimidos-recubiertos-850-mg-> schema:titular <http://graves.cl/bioequivalencia/titular/instituto-sanitas> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-1522> a schema:Resolucion ;
+	rdfs:label "resolucin-n-1522" ;
+	dcterms:identifier "resolucin-n-1522" ;
+	dcterms:created "2012-06-18"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/metformina-comprimidos-recubiertos-850-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-1522> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-diabetes-mellitus> .
+
+<http://graves.cl/bioequivalencia/medicamento/zarlot-comprimidos-50-mg> a schema:Medicamento ;
+	dcterms:identifier "71" .
+
+<http://graves.cl/bioequivalencia/principioactivo%2Flosart%E2%88%9A%C3%A5n+%28p%E2%88%9A%C3%ACtasico%29> a schema:PrincipioActivo ;
+	rdfs:label "Losart√ån (p√ìtasico)" .
+
+<http://graves.cl/bioequivalencia/medicamento/zarlot-comprimidos-50-mg> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo%2Flosart%E2%88%9A%C3%A5n+%28p%E2%88%9A%C3%ACtasico%29> ;
+	rdfs:label "Zarlot comprimidos 50 mg" ;
+	schema:registro "F-19513/12" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/novartis-chile> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-rw-13588> a schema:Resolucion ;
+	rdfs:label "resolucin-rw-13588" ;
+	dcterms:identifier "resolucin-rw-13588" ;
+	dcterms:created "2012-07-09"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/zarlot-comprimidos-50-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-rw-13588> .
+
+<http://graves.cl/bioequivalencia/enfermedad/hipertensin-arterial> a schema:Tratamiento ;
+	rdfs:label "Hipertension arterial" .
+
+<http://graves.cl/bioequivalencia/medicamento/zarlot-comprimidos-50-mg> schema:uso <http://graves.cl/bioequivalencia/enfermedad/hipertensin-arterial> .
+
+<http://graves.cl/bioequivalencia/medicamento/-drimpax-comprimidos-recubiertos-20-mg> a schema:Medicamento ;
+	dcterms:identifier "72" .
+
+<http://graves.cl/bioequivalencia/principioactivo/paroxetina> a schema:PrincipioActivo ;
+	rdfs:label "Paroxetina" .
+
+<http://graves.cl/bioequivalencia/medicamento/-drimpax-comprimidos-recubiertos-20-mg> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/paroxetina> ;
+	rdfs:label " Drimpax comprimidos recubiertos 20 mg" ;
+	schema:registro "F-18001/10" .
+
+<http://graves.cl/bioequivalencia/titular/laboratorio-rider> a schema:Titular .
+
+<http://graves.cl/bioequivalencia/medicamento/-drimpax-comprimidos-recubiertos-20-mg> schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-rider> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-1774> a schema:Resolucion ;
+	rdfs:label "resolucin-n-1774" ;
+	dcterms:identifier "resolucin-n-1774" ;
+	dcterms:created "2012-07-12"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/-drimpax-comprimidos-recubiertos-20-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-1774> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/antidepresivo> .
+
+<http://graves.cl/bioequivalencia/medicamento/piclokare-comprimidos-recubiertos-75-mg> a schema:Medicamento ;
+	dcterms:identifier "73" .
+
+<http://graves.cl/bioequivalencia/principioactivo/clopidogrel> a schema:PrincipioActivo ;
+	rdfs:label "Clopidogrel" .
+
+<http://graves.cl/bioequivalencia/medicamento/piclokare-comprimidos-recubiertos-75-mg> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/clopidogrel> ;
+	rdfs:label "Piclokare comprimidos recubiertos 75 mg" ;
+	schema:registro "F-17986/10" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/etex-chile-farmacutica> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-1993> a schema:Resolucion ;
+	rdfs:label "resolucin-n-1993" ;
+	dcterms:identifier "resolucin-n-1993" ;
+	dcterms:created "2012-08-06"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/piclokare-comprimidos-recubiertos-75-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-1993> .
+
+<http://graves.cl/bioequivalencia/enfermedad/antiagregante-plaquetario> a schema:Tratamiento ;
+	rdfs:label "Antiagregante plaquetario" .
+
+<http://graves.cl/bioequivalencia/medicamento/piclokare-comprimidos-recubiertos-75-mg> schema:uso <http://graves.cl/bioequivalencia/enfermedad/antiagregante-plaquetario> .
+
+<http://graves.cl/bioequivalencia/medicamento/-nodutax-comprimidos-recubiertos-25-mg-> a schema:Medicamento ;
+	dcterms:identifier "74" .
+
+<http://graves.cl/bioequivalencia/principioactivo/exemestano> a schema:PrincipioActivo ;
+	rdfs:label "Exemestano" .
+
+<http://graves.cl/bioequivalencia/medicamento/-nodutax-comprimidos-recubiertos-25-mg-> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/exemestano> ;
+	rdfs:label " Nodutax comprimidos recubiertos 25 mg " ;
+	schema:registro "F-18640/11" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-rider> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-1994> a schema:Resolucion ;
+	rdfs:label "resolucin-n-1994" ;
+	dcterms:identifier "resolucin-n-1994" ;
+	dcterms:created "2012-08-06"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/-nodutax-comprimidos-recubiertos-25-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-1994> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/cancer-de-mama> .
+
+<http://graves.cl/bioequivalencia/medicamento/bicalutamida-comprimidos-recubiertos-50-mg> a schema:Medicamento ;
+	dcterms:identifier "75" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/bicalutamida> ;
+	rdfs:label "Bicalutamida comprimidos recubiertos  50 mg" ;
+	schema:registro "F-18561/11" .
+
+<http://graves.cl/bioequivalencia/titular/fresenius-kabi> a schema:Titular .
+
+<http://graves.cl/bioequivalencia/medicamento/bicalutamida-comprimidos-recubiertos-50-mg> schema:titular <http://graves.cl/bioequivalencia/titular/fresenius-kabi> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-2156> a schema:Resolucion ;
+	rdfs:label "resolucin-n-2156" ;
+	dcterms:identifier "resolucin-n-2156" ;
+	dcterms:created "2012-08-22"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/bicalutamida-comprimidos-recubiertos-50-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-2156> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/cancer-de-prostata> .
+
+<http://graves.cl/bioequivalencia/medicamento/letrozol-comprimidos-recubiertos-25-mg> a schema:Medicamento ;
+	dcterms:identifier "76" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/letrozol> ;
+	rdfs:label "Letrozol comprimidos recubiertos 2,5 mg" ;
+	schema:registro "F-18699/11" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/fresenius-kabi> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-2168> a schema:Resolucion ;
+	rdfs:label "resolucin-n-2168" ;
+	dcterms:identifier "resolucin-n-2168" ;
+	dcterms:created "2012-08-23"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/letrozol-comprimidos-recubiertos-25-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-2168> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/cancer-de-mama> .
+
+<http://graves.cl/bioequivalencia/medicamento/oxemet-comprimidos-recubiertos-500-mg> a schema:Medicamento ;
+	dcterms:identifier "77" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo%2Fmetformina+clorhidrato> ;
+	rdfs:label "Oxemet comprimidos recubiertos 500 mg" ;
+	schema:registro "F-15992/12" .
+
+<http://graves.cl/bioequivalencia/titular/glaxosmithkline> a schema:Titular .
+
+<http://graves.cl/bioequivalencia/medicamento/oxemet-comprimidos-recubiertos-500-mg> schema:titular <http://graves.cl/bioequivalencia/titular/glaxosmithkline> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-2264> a schema:Resolucion ;
+	rdfs:label "resolucin-n-2264" ;
+	dcterms:identifier "resolucin-n-2264" ;
+	dcterms:created "2012-08-27"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/oxemet-comprimidos-recubiertos-500-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-2264> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-diabetes-mellitus> .
+
+<http://graves.cl/bioequivalencia/medicamento/oxemet-comprimidos-recubiertos-850-mg> a schema:Medicamento ;
+	dcterms:identifier "78" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo%2Fmetformina+clorhidrato> ;
+	rdfs:label "Oxemet comprimidos recubiertos 850 mg" ;
+	schema:registro "F-15990/12" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/glaxosmithkline> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-2265> a schema:Resolucion ;
+	rdfs:label "resolucin-n-2265" ;
+	dcterms:identifier "resolucin-n-2265" ;
+	dcterms:created "2012-08-27"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/oxemet-comprimidos-recubiertos-850-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-2265> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/tratamiento-de-diabetes-mellitus> .
+
+<http://graves.cl/bioequivalencia/medicamento/anastrozol-comprimidos-recubiertos-1-mg> a schema:Medicamento ;
+	dcterms:identifier "79" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/anastrozol> ;
+	rdfs:label "Anastrozol comprimidos recubiertos 1 mg" ;
+	schema:registro "F-19105/11" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/fresenius-kabi> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-2201> a schema:Resolucion ;
+	rdfs:label "resolucin-n-2201" ;
+	dcterms:identifier "resolucin-n-2201" ;
+	dcterms:created "2012-08-28"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/anastrozol-comprimidos-recubiertos-1-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-2201> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/cancer-de-mama> .
+
+<http://graves.cl/bioequivalencia/medicamento/-clozanil-comprimidos-05-mg-> a schema:Medicamento ;
+	dcterms:identifier "80" .
+
+<http://graves.cl/bioequivalencia/principioactivo/clonazepam> a schema:PrincipioActivo ;
+	rdfs:label "Clonazepam" .
+
+<http://graves.cl/bioequivalencia/medicamento/-clozanil-comprimidos-05-mg-> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/clonazepam> ;
+	rdfs:label "  Clozanil comprimidos 0,5 mg                                                                                          " ;
+	schema:registro "F-504/08" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/instituto-sanitas> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-2537> a schema:Resolucion ;
+	rdfs:label "resolucin-n-2537" ;
+	dcterms:identifier "resolucin-n-2537" ;
+	dcterms:created "2012-09-25"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/-clozanil-comprimidos-05-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-2537> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/ansiedad> .
+
+<http://graves.cl/bioequivalencia/medicamento/lowden-comprimidos-recubiertos-40-mg-> a schema:Medicamento ;
+	dcterms:identifier "81" .
+
+<http://graves.cl/bioequivalencia/principioactivo/atorvastatina> a schema:PrincipioActivo ;
+	rdfs:label "Atorvastatina" .
+
+<http://graves.cl/bioequivalencia/medicamento/lowden-comprimidos-recubiertos-40-mg-> schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/atorvastatina> ;
+	rdfs:label "Lowden comprimidos recubiertos 40 mg                                                                                      " ;
+	schema:registro "F-13954/09" .
+
+<http://graves.cl/bioequivalencia/titular/laboratorio-saval-> a schema:Titular .
+
+<http://graves.cl/bioequivalencia/medicamento/lowden-comprimidos-recubiertos-40-mg-> schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-saval-> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-2557> a schema:Resolucion ;
+	rdfs:label "resolucin-n-2557" ;
+	dcterms:identifier "resolucin-n-2557" ;
+	dcterms:created "2012-09-28"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/lowden-comprimidos-recubiertos-40-mg-> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-2557> .
+
+<http://graves.cl/bioequivalencia/enfermedad/disminucin-del-colesterol> a schema:Tratamiento ;
+	rdfs:label "Disminucion del colesterol" .
+
+<http://graves.cl/bioequivalencia/medicamento/lowden-comprimidos-recubiertos-40-mg-> schema:uso <http://graves.cl/bioequivalencia/enfermedad/disminucin-del-colesterol> .
+
+<http://graves.cl/bioequivalencia/medicamento/clozanil-comprimidos-2-mg> a schema:Medicamento ;
+	dcterms:identifier "82" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/clonazepam> ;
+	rdfs:label "Clozanil comprimidos 2 mg" ;
+	schema:registro "F-505/08" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/instituto-sanitas> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-2582> a schema:Resolucion ;
+	rdfs:label "resolucin-n-2582" ;
+	dcterms:identifier "resolucin-n-2582" ;
+	dcterms:created "2012-10-02"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/clozanil-comprimidos-2-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-2582> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/ansiedad> .
+
+<http://graves.cl/bioequivalencia/medicamento/losartan-potasico-comprimidos-recubiertos-50-mg> a schema:Medicamento ;
+	dcterms:identifier "83" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo%2Flosart%E2%88%9A%C3%A5n+%28p%E2%88%9A%C3%ACtasico%29> ;
+	rdfs:label "Losartan potasico comprimidos recubiertos 50 mg" ;
+	schema:registro "F-17455/09" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/opko-chile> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-n-2748-> a schema:Resolucion ;
+	rdfs:label "resolucin-n-2748-" ;
+	dcterms:identifier "resolucin-n-2748-" ;
+	dcterms:created "2012-10-22"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/losartan-potasico-comprimidos-recubiertos-50-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-n-2748-> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/hipertensin-arterial> .
+
+<http://graves.cl/bioequivalencia/medicamento/atorvastatina-comprimidos-recubiertos-10-mg> a schema:Medicamento ;
+	dcterms:identifier "84" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/atorvastatina> ;
+	rdfs:label "Atorvastatina comprimidos recubiertos 10 mg" ;
+	schema:registro "F-19646/12" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-chile> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-rw-21519> a schema:Resolucion ;
+	rdfs:label "resolucin-rw-21519" ;
+	dcterms:identifier "resolucin-rw-21519" ;
+	dcterms:created "2012-10-24"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/atorvastatina-comprimidos-recubiertos-10-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-rw-21519> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/disminucin-del-colesterol> .
+
+<http://graves.cl/bioequivalencia/medicamento/atorvastatina-comprimidos-recubiertos-20-mg> a schema:Medicamento ;
+	dcterms:identifier "85" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/atorvastatina> ;
+	rdfs:label "Atorvastatina comprimidos recubiertos 20 mg" ;
+	schema:registro "F-19643/12" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-chile> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-rw-21536> a schema:Resolucion ;
+	rdfs:label "resolucin-rw-21536" ;
+	dcterms:identifier "resolucin-rw-21536" ;
+	dcterms:created "2012-10-24"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/atorvastatina-comprimidos-recubiertos-20-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-rw-21536> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/disminucin-del-colesterol> .
+
+<http://graves.cl/bioequivalencia/medicamento/atorvastatina-comprimidos-recubiertos-40-mg> a schema:Medicamento ;
+	dcterms:identifier "86" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/atorvastatina> ;
+	rdfs:label "Atorvastatina comprimidos recubiertos 40 mg" ;
+	schema:registro "F-19644/12" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-chile> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-rw-21530> a schema:Resolucion ;
+	rdfs:label "resolucin-rw-21530" ;
+	dcterms:identifier "resolucin-rw-21530" ;
+	dcterms:created "2012-10-24"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/atorvastatina-comprimidos-recubiertos-40-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-rw-21530> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/disminucin-del-colesterol> .
+
+<http://graves.cl/bioequivalencia/medicamento/atorvastatina-comprimidos-recubiertos-80-mg> a schema:Medicamento ;
+	dcterms:identifier "87" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/atorvastatina> ;
+	rdfs:label "Atorvastatina comprimidos recubiertos 80 mg" ;
+	schema:registro "F-19645/12" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-chile> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-rw-21526> a schema:Resolucion ;
+	rdfs:label "resolucin-rw-21526" ;
+	dcterms:identifier "resolucin-rw-21526" ;
+	dcterms:created "2012-10-24"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/atorvastatina-comprimidos-recubiertos-80-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-rw-21526> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/disminucin-del-colesterol> .
+
+<http://graves.cl/bioequivalencia/medicamento/lipox-comprimidos-recubiertos-10-mg> a schema:Medicamento ;
+	dcterms:identifier "88" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/atorvastatina> ;
+	rdfs:label "Lipox comprimidos recubiertos 10 mg" ;
+	schema:registro "F-19639/12" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-chile> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-rw-21518> a schema:Resolucion ;
+	rdfs:label "resolucin-rw-21518" ;
+	dcterms:identifier "resolucin-rw-21518" ;
+	dcterms:created "2012-10-24"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/lipox-comprimidos-recubiertos-10-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-rw-21518> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/disminucin-del-colesterol> .
+
+<http://graves.cl/bioequivalencia/medicamento/lipox-comprimidos-recubiertos-20-mg> a schema:Medicamento ;
+	dcterms:identifier "89" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/atorvastatina> ;
+	rdfs:label "Lipox comprimidos recubiertos 20 mg" ;
+	schema:registro "F-19640/12" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-chile> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-rw-21520> a schema:Resolucion ;
+	rdfs:label "resolucin-rw-21520" ;
+	dcterms:identifier "resolucin-rw-21520" ;
+	dcterms:created "2012-10-24"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/lipox-comprimidos-recubiertos-20-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-rw-21520> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/disminucin-del-colesterol> .
+
+<http://graves.cl/bioequivalencia/medicamento/lipox-comprimidos-recubiertos-40-mg> a schema:Medicamento ;
+	dcterms:identifier "90" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/atorvastatina> ;
+	rdfs:label "Lipox comprimidos recubiertos 40 mg" ;
+	schema:registro "F-19641/12" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-chile> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-rw-21522> a schema:Resolucion ;
+	rdfs:label "resolucin-rw-21522" ;
+	dcterms:identifier "resolucin-rw-21522" ;
+	dcterms:created "2012-10-24"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/lipox-comprimidos-recubiertos-40-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-rw-21522> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/disminucin-del-colesterol> .
+
+<http://graves.cl/bioequivalencia/medicamento/lipox-comprimidos-recubiertos-80-mg> a schema:Medicamento ;
+	dcterms:identifier "91" ;
+	schema:principioActivo <http://graves.cl/bioequivalencia/principioactivo/atorvastatina> ;
+	rdfs:label "Lipox comprimidos recubiertos 80 mg" ;
+	schema:registro "F-19642/12" ;
+	schema:titular <http://graves.cl/bioequivalencia/titular/laboratorio-chile> .
+
+<http://graves.cl/bioequivalencia/resolucion/resolucin-rw-21523> a schema:Resolucion ;
+	rdfs:label "resolucin-rw-21523" ;
+	dcterms:identifier "resolucin-rw-21523" ;
+	dcterms:created "2012-10-24"^^xsd:date .
+
+<http://graves.cl/bioequivalencia/medicamento/lipox-comprimidos-recubiertos-80-mg> schema:resolucion <http://graves.cl/bioequivalencia/resolucion/resolucin-rw-21523> ;
+	schema:uso <http://graves.cl/bioequivalencia/enfermedad/disminucin-del-colesterol> .
+
+
+schema:Medicamento a owl:Class ;
+                   rdfs:label "Medicamento" .
+
+schema:PrincipioActivo a owl:Class ;
+                   rdfs:label "Principio activo" .
+
+schema:Titular a owl:Class ;
+                   rdfs:label "Titular" .
+
+schema:Resolucion a owl:Class ;
+                   rdfs:label "Resolucion" .
+
+schema:Tratamiento a owl:Class ;
+                   rdfs:label "Tratamiento" .
