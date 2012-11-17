@@ -2,7 +2,7 @@
 <div class="container-fluid">
 	<div class='row-fluid'>
 		<div class='span12'>
-<p>Busca alguna palabra, como "cancer"</p>
+<p>Busca alguna palabra, como "sida"</p>
 			<form class="form-horizontal" action="">
 				<input type="text" data-provide="typeahead" class="typeahead input-xxlarge search-query" placeholder="Buscar medicamento, enfermedad o tratamiento"/>
 			</form>
