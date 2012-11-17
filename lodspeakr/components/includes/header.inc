@@ -42,6 +42,7 @@
               window.location = obj.uri;
             }
         });
+        $("input").on('keyup', function(){$("form").attr("action", 'search/'+$(this).val())});
     });
     </script>
   </head>
