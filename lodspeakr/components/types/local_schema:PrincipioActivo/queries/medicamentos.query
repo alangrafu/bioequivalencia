@@ -1,0 +1,4 @@
+SELECT DISTINCT ?medicamento ?medicamentoLabel WHERE{
+  ?medicamento local_schema:principioActivo <{{uri}}>;
+               rdfs:label ?medicamentoLabel .
+}

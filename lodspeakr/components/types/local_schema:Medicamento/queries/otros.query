@@ -1,0 +1,7 @@
+SELECT DISTINCT ?medicamento ?medicamentoLabel ?tratamientoLabel WHERE{
+  <{{uri}}> local_schema:uso ?tratamiento .
+  ?medicamento local_schema:uso ?tratamiento ;
+               rdfs:label ?medicamentoLabel .
+  ?tratamiento rdfs:label ?tratamientoLabel .
+  FILTER(?medicamento != <{{uri}}>)
+}

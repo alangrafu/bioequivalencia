@@ -1,0 +1,12 @@
+{%include "../../includes/header.inc"%}
+
+    <div class="container-fluid span8">
+      <h2>Listado de {{first.details.name.value}}</h2>
+	<table class='table table-striped'>
+    {% for row in models.main %}
+        <tr><td><a href="{{ row.resource.value }}">{{row.resourceLabel.curie}}</a></td></tr>
+    {% endfor %}
+    </table>
+   </div>
+  </body>
+</html>

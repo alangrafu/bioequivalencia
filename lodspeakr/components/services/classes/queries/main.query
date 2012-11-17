@@ -1,0 +1,3 @@
+SELECT DISTINCT ?resource WHERE {
+    ?x a ?resource .
+}LIMIT 30

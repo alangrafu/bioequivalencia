@@ -1,0 +1,7 @@
+SELECT DISTINCT ?resource ?label ?typeLabel WHERE {
+  ?resource rdfs:label ?label ;
+            a ?type .
+  ?type rdfs:label ?typeLabel .
+  FILTER(regex(str(?label), "{{lodspk.args.arg0}}", "i"))
+}
+LIMIT 10

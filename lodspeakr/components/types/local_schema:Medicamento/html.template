@@ -1,0 +1,34 @@
+{%include "../../includes/header.inc"%}
+
+<div class="container">
+	<h2>{{first.details.name.value}}</h2>
+	<h3>Principio activo: <a href='{{first.details.principio.value}}'>{{first.details.principioLabel.value}}</a></h3>
+	<h3>Registro: {{first.details.registro.value}}</h3>
+	<div style='margin-top: 40px'>
+		<table class='table table-striped'>
+			<thead>
+				<tr><th>Tratamientos que usan este medicamento</th></tr>
+			</thead>
+			{% for row in models.uso %}
+			<tr>
+				<td><a href='{{row.tratamiento.value}}'>{{row.tratamientoLabel.value}}</a></td>
+			</tr>
+			{% endfor %}
+		</table>
+		<table class='table table-striped'>
+			<thead>
+				<tr><th>Otros medicamentos para estos tratamientos</th></tr>
+			</thead>
+			{% for row in models.otros %}
+			<tr>
+				<td><a href='{{row.medicamento.value}}'>{{row.medicamentoLabel.value}}</a> ({{row.tratamientoLabel.value}})</td>
+			</tr>
+			{% endfor %}
+		</table>
+
+	</div>    
+    
+	<br/>
+</body>
+</html>
+

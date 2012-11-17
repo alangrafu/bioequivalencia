@@ -1,0 +1,22 @@
+{%include "../../includes/header.inc"%}
+<div class="container-fluid">
+	<div class='row-fluid'>
+		<div class='span12'>
+<p>Busca alguna palabra, como "cancer"</p>
+			<form class="form-horizontal" action="">
+				<input type="text" data-provide="typeahead" class="typeahead input-xxlarge search-query" placeholder="Buscar medicamento, enfermedad o tratamiento"/>
+			</form>
+		</div>
+	</div>
+	<div class='row-fluid'>
+	 <div class='span12'>
+          <p><a href='instances/local_schema:Tratamiento'><button class='btn btn-large btn-success'>Listado de tratamientos</button></a></p>
+          <p><a href='instances/local_schema:PrincipioActivo'><button class='btn btn-large btn-success'>Listado de principios activos</button></a></p>
+          <p><a href='instances/local_schema:Medicamento'><button class='btn btn-large btn-success'>Listado de medicamentos</button></a></p>
+          <p><a href='https://github.com/alangrafu/bioequivalencia' target='_new'><img src='{{lodspk.home}}img/github.ico'/>Repositorio github</a></p>
+         </div>
+        </div>
+
+</div>
+</body>
+</html>

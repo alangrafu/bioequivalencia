@@ -1,0 +1,4 @@
+PREFIX local_schema: <http://graves.cl/bioequivalencia/schema/>
+SELECT ?name WHERE{
+  {{lodspk.args.arg0}} rdfs:label ?name
+}LIMIT 1

@@ -1,0 +1,3 @@
+SELECT ?name WHERE{
+  <{{uri}}> rdfs:label ?name
+}LIMIT 1

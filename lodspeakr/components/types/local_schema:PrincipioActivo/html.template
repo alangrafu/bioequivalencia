@@ -1,0 +1,22 @@
+{%include "../../includes/header.inc"%}
+
+<div class="container-fluid">
+	<h2>{{first.details.name.value}}</h2>
+
+	<div style='margin-top: 40px'>
+		<table class='table table-striped'>
+			<thead>
+				<tr><th>Medicamentos que contienen este principio activo</th></tr>
+			</thead>
+			{% for row in models.medicamentos %}
+			<tr>
+				<td><a href='{{row.medicamento.value}}'>{{row.medicamentoLabel.value}}</a></td>
+			</tr>
+			{% endfor %}
+		</table>
+	</div>    
+    
+	<br/>
+</body>
+</html>
+

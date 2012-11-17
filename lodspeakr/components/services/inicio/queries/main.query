@@ -1,0 +1,4 @@
+SELECT DISTINCT ?resource ?resourceLabel WHERE {
+    ?x a ?resource .
+	?resource rdfs:label ?resourceLabel .
+}
