@@ -1,19 +1,17 @@
 <?php
 
-$conf['endpoint']['local'] = 'http://graves.cl/bioequivalencia/db/sparql.php';
-$conf['home'] = '/home/alangrafu/graves.cl/bioequivalencia/lodspeakr/';
-$conf['basedir'] = 'http://graves.cl/bioequivalencia/';
-$conf['debug'] = false;
+$conf['endpoint']['local'] = 'http://localhost/sparql'; //tu sparql endpoint donde están alojados los datos
+$conf['home'] = '/var/www/bioequivalencia/lodspeakr/'; //el path donde está alojado lodspeakr
+$conf['basedir'] = 'http://misitio.com/bioequivalencia/'; //la URL donde se verá el sitio
 
-/*ATTENTION: By default this application is available to
- * be exported and copied (its configuration)
- * by others. If you do not want that, 
- * turn the next option as false
- */ 
+
+
+//NO CAMBIAR NADA DEBAJO DE ESTA LINE//
+$conf['debug'] = false;
 
 # If you want to add/override a namespace, add it here
 $conf['ns']['local']   = 'http://graves.cl/bioequivalencia/';
 $conf['root'] = 'inicio';
 
-$conf['mirror_external_uris'] = false;
+$conf['mirror_external_uris'] = true;
 ?>
