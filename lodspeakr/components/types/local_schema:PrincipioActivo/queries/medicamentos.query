@@ -1,4 +1,6 @@
 SELECT DISTINCT ?medicamento ?medicamentoLabel WHERE{
-  ?medicamento local_schema:principioActivo <{{uri}}>;
+	GRAPH <http://graves.cl/bioequivalencia>{
+	  ?medicamento local_schema:principioActivo <{{uri}}>;
                rdfs:label ?medicamentoLabel .
+    }
 }

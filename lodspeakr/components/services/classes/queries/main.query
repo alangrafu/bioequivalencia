@@ -1,3 +1,5 @@
 SELECT DISTINCT ?resource WHERE {
+GRAPH <http://graves.cl/bioequivalencia>{
     ?x a ?resource .
+}
 }LIMIT 30

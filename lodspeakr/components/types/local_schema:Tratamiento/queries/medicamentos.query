@@ -1,4 +1,6 @@
 SELECT DISTINCT ?uri ?nombre WHERE{
-  ?uri local_schema:uso <{{uri}}>;
+	GRAPH <http://graves.cl/bioequivalencia>{
+	  ?uri local_schema:uso <{{uri}}>;
        rdfs:label ?nombre .
+     }
 }ORDER BY ?nombre

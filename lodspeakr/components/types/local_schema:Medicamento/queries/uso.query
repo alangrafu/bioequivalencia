@@ -1,4 +1,6 @@
 SELECT DISTINCT ?tratamiento ?tratamientoLabel WHERE{
-  <{{uri}}> local_schema:uso ?tratamiento .
-  ?tratamiento rdfs:label ?tratamientoLabel .
+	GRAPH <http://graves.cl/bioequivalencia>{
+  		<{{uri}}> local_schema:uso ?tratamiento .
+  		?tratamiento rdfs:label ?tratamientoLabel .
+  }
 }

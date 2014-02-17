@@ -1,6 +1,8 @@
 SELECT ?name ?registro ?principio ?principioLabel WHERE{
-  <{{uri}}> rdfs:label ?name;
+	GRAPH <http://graves.cl/bioequivalencia>{
+		<{{uri}}> rdfs:label ?name;
             local_schema:principioActivo ?principio;
 			local_schema:registro ?registro .
- ?principio rdfs:label ?principioLabel .
+ 		?principio rdfs:label ?principioLabel .
+ 	}
 }

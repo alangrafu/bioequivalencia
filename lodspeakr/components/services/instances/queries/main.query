@@ -1,6 +1,8 @@
 PREFIX local_schema: <http://graves.cl/bioequivalencia/schema/>
 
 SELECT DISTINCT ?resource ?resourceLabel WHERE {
+	GRAPH <http://graves.cl/bioequivalencia>{
       ?resource a {{lodspk.args.arg0}} ;
 	            rdfs:label ?resourceLabel . 
+	}
 }ORDER BY ?resourceLabel

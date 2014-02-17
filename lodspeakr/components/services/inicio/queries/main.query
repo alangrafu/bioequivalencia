@@ -1,4 +1,6 @@
 SELECT DISTINCT ?resource ?resourceLabel WHERE {
-    ?x a ?resource .
-	?resource rdfs:label ?resourceLabel .
+	GRAPH <http://graves.cl/bioequivalencia>{
+    	?x a ?resource .
+		?resource rdfs:label ?resourceLabel .
+	}
 }

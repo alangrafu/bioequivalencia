@@ -1,3 +1,5 @@
 SELECT ?name WHERE{
-  <{{uri}}> rdfs:label ?name
+	GRAPH <http://graves.cl/bioequivalencia>{
+	  <{{uri}}> rdfs:label ?name
+	}
 }LIMIT 1
